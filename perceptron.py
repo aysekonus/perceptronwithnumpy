@@ -4,8 +4,8 @@ import numpy as np
 
 def __init__(self, num_features):
     self.num_features = num_features
-    self.weights = np.zeros((num_features, 1), dtype=np.float64)
-    self.bias = np.zeros(1, dtype=np.float64)
+    self.weights = np.zeros((num_features, 1), dtype=np.float)
+    self.bias = np.zeros(1, dtype=np.float)
 
 
 def forward(self, x):
